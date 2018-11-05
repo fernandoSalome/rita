@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="12F7199F-4FFB-BA20-A75A-177CFC1AE33A" directorySegmentName="seg_0" name="T_AULA27_MUSICA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>538651C7-91D0-353F-BD1E-E275DDE298A8</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pkName>PK_AULA27_MUSICA</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_musica" id="4E0CB4DD-20B4-A022-1B7D-AB6D905260B5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>89522EF2-427E-DEB9-9EA4-F0D8F7CF6644</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ds_musica" id="B5404030-9D47-8E0A-9F20-3F439555B713">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>57483231-EB6E-1DFA-50F3-15761432872E</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D58D0B12-D0CD-43D2-3151-630880CB79C1" name="PK_AULA27_MUSICA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>0FFE4707-40EE-B486-39E5-97856F0002AF</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4E0CB4DD-20B4-A022-1B7D-AB6D905260B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

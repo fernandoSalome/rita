@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AULA27_MODELO_CD" id="283E6CF0-9F68-33D9-E508-B449F740BC5B" version="3.5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:13:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>283E6CF0-9F68-33D9-E508-B449F740BC5B</designId>
+</OSDM_Design>

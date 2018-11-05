@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="058EE57A-CC60-EC21-A4E4-A159B09916B8" name="T_SPV_NOTA_FISCAL">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 17:53:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="F313BD54-D13C-DA89-299B-C7796F9F60C8">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:10:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="cd_classificacao_fiscal" id="DA7EB971-348F-9978-8612-A73F6BF1787F">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:29:09 UTC</createdTime>
+<generatorID>05605764-1056-174D-CFC0-AE9753E55C38</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<referedAttribute>0C05097A-4021-CBC7-C6DB-1FA0A6244087</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="cd_cliente" id="5AC220F7-14EE-7BF0-C2BA-60DDFD6A80E2">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:13:46 UTC</createdTime>
+<generatorID>0FD683A7-7ED8-59BA-ADF3-E4BBC19237F7</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<referedAttribute>6AF03064-7D53-1BC6-08B4-16B19D59A809</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="dt_emissao" id="B23BF961-0F96-4546-09EA-0083A6AA417F">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:10:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="vl_total_nf" id="A7CA8935-E1DE-02D8-DF6B-7EE2CD2930EB">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:11:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="ds_tipo" id="8C1FB4EE-155E-6202-4A58-7B376CCD1114">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-04 19:34:10 UTC</createdTime>
+<comment>1- Entrada&lt;br/&gt;2- Saída</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="vl_desconto" id="FAFCB294-9451-286E-D8D7-9FD5EDC38F95">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-04 19:34:17 UTC</createdTime>
+<comment>percentual de desconto</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54BEA0BC-5FAC-F3AC-AA65-48B34AB3A8CA" name="T_SPV_NOTA_FISCAL PK">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:11:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F313BD54-D13C-DA89-299B-C7796F9F60C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

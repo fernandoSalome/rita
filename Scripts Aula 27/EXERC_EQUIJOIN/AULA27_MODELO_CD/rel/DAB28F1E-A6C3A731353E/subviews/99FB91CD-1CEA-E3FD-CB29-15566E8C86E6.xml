@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="99FB91CD-1CEA-E3FD-CB29-15566E8C86E6">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:21:21 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="02EEF6D8-D15E-5F4D-0DCE-FEAE7AFE48D6" otype="Table" vid="6777345E-3E0B-3409-097D-406D72272D38">
+<bounds x="261" y="185" width="281" height="106"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="12F7199F-4FFB-BA20-A75A-177CFC1AE33A" otype="Table" vid="AE306A43-D1D4-D100-6E37-7CD147BCBEE3">
+<bounds x="24" y="338" width="201" height="83"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8E3A9F6A-6004-547F-3303-CD8EA05C88C5" otype="Table" vid="F05CAA68-EE85-894D-AF63-7AD8191CA471">
+<bounds x="416" y="19" width="225" height="107"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BA3D36C7-32CA-94F1-A7C8-6BBB2EF2D2A0" otype="Table" vid="A9475145-B639-1628-1181-15C17C069FBE">
+<bounds x="19" y="18" width="215" height="109"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="44C09633-C61C-CB22-297F-71FAC7480C30" otype="FKIndexAssociation" vid_source="A9475145-B639-1628-1181-15C17C069FBE" vid_target="6777345E-3E0B-3409-097D-406D72272D38">
+<lineWidth>1</lineWidth>
+<points>
+<point x="234" y="95"/>
+<point x="345" y="95"/>
+<point x="345" y="185"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="871972FB-0CD2-D082-747F-51CB561EDA30" otype="FKIndexAssociation" vid_source="AE306A43-D1D4-D100-6E37-7CD147BCBEE3" vid_target="6777345E-3E0B-3409-097D-406D72272D38">
+<lineWidth>1</lineWidth>
+<points>
+<point x="225" y="393"/>
+<point x="348" y="393"/>
+<point x="348" y="291"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4678EB0D-5E08-3027-165B-448262C4B994" name="T_SPV_UNIDADE_MEDIDA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 17:52:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unidade_medida" id="3983645B-8B7E-0166-626D-7A70412C3923">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:02:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="ds_sigla" id="299CFF8C-8E03-2C25-7ED1-395C02E87B74">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:05:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+</Attribute>
+<Attribute name="ds_unidade_medida" id="02E4E230-96A1-3D2D-8A7D-A75F8062AC2C">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:02:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63488C5E-E45A-6B98-19D0-4121631718AD" name="T_SPV_UNIDADE_MEDIDA PK">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:05:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3983645B-8B7E-0166-626D-7A70412C3923</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

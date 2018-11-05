@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nf_tem_classificacao" directorySegmentName="seg_0" id="05605764-1056-174D-CFC0-AE9753E55C38">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:29:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<sourcePk>D7E62040-7C56-E91D-1B27-2A5B20D52FF1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E6B870A-BF7E-6D65-A0BC-4734975B1516</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>058EE57A-CC60-EC21-A4E4-A159B09916B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

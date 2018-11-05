@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AULA27_CD_FAIXA" id="FDC99914-25A6-67F9-3432-613834D01512" directorySegmentName="seg_0">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:22:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B89DD838-209A-F0E1-F7FB-882D8AAEF22E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8EDC482C-4AEE-2618-F651-21044BC3C786</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

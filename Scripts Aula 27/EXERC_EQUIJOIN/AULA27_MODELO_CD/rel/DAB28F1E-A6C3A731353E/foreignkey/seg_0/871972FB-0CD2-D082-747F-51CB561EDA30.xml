@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="871972FB-0CD2-D082-747F-51CB561EDA30" directorySegmentName="seg_0" name="FK_AULA27_MUSICA_FAIXA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>C0914EF5-42ED-AE84-A0FD-1719BAF3995F</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<containerWithKeyObject>02EEF6D8-D15E-5F4D-0DCE-FEAE7AFE48D6</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>7DFC3E55-0E61-F310-DD22-C7ABD058DEE3</localFKIndex>
+<keyObject>D58D0B12-D0CD-43D2-3151-630880CB79C1</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4800DC6A-18B5-DCA4-515A-3EC82927A72A" name="FK_SPV_CLI_NF">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>0FD683A7-7ED8-59BA-ADF3-E4BBC19237F7</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<containerWithKeyObject>4E57E06C-F839-228A-9754-EFAD7D257E32</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>C173DECB-BE52-EF16-EEE8-C5B2695DD600</localFKIndex>
+<keyObject>22F821E3-420F-6164-9753-A8859B377EE5</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

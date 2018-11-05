@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="8E3A9F6A-6004-547F-3303-CD8EA05C88C5" name="T_AULA27_CATEGORIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="BA3D36C7-32CA-94F1-A7C8-6BBB2EF2D2A0" name="T_AULA27_CD" seqName="seg_0"/>
+   <object objectType="Table" objectID="02EEF6D8-D15E-5F4D-0DCE-FEAE7AFE48D6" name="T_AULA27_FAIXA_CD" seqName="seg_0"/>
+   <object objectType="Table" objectID="12F7199F-4FFB-BA20-A75A-177CFC1AE33A" name="T_AULA27_MUSICA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="44C09633-C61C-CB22-297F-71FAC7480C30" name="FK_AULA27_CD_FAIXA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="871972FB-0CD2-D082-747F-51CB561EDA30" name="FK_AULA27_MUSICA_FAIXA" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="9AA54B25-6176-91E1-D33F-086A681F638C" directorySegmentName="seg_0" name="T_AULA27_CATEGORIA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<pkName>PK_AULA27_CATEGORIA</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Atributo</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="cd_categoria" id="C3F834A1-DBA9-7674-7BEE-CF2905F7280F">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ds_categoria" id="19C33809-76D3-DB41-3DFB-195841EAADF6">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="vl_inicial" id="9429CCFB-5481-8FA2-6618-A90A04972816">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="vl_final" id="FA3D0124-9EFE-F518-A8BE-D33B06FFFE96">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="4054E8AC-3BCD-81F6-DBB2-7A7019194541" name="PK_AULA27_CATEGORIA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3F834A1-DBA9-7674-7BEE-CF2905F7280F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

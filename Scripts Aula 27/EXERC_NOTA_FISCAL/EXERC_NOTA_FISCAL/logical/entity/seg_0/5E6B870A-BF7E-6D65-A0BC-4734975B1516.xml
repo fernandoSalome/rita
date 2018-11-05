@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E6B870A-BF7E-6D65-A0BC-4734975B1516" name="T_SPV_CLASSIFICAO_FISCAL">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 17:52:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_classificacao_fiscal" id="0C05097A-4021-CBC7-C6DB-1FA0A6244087">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:00:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="nr_cfop" id="48F6316B-7D73-7372-C8BB-41433994FB5E">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:00:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="ds_natureza_operacao" id="DE05A067-3812-D456-3807-6C6B4F49D7F4">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:00:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7E62040-7C56-E91D-1B27-2A5B20D52FF1" name="T_SPV_CLASSIFICAO_FISCAL PK">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:01:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C05097A-4021-CBC7-C6DB-1FA0A6244087</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

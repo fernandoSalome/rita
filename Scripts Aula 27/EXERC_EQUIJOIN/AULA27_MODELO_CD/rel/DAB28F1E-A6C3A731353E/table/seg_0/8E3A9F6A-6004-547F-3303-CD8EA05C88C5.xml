@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="8E3A9F6A-6004-547F-3303-CD8EA05C88C5" directorySegmentName="seg_0" name="T_AULA27_CATEGORIA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>9AA54B25-6176-91E1-D33F-086A681F638C</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pkName>PK_AULA27_CATEGORIA</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_categoria" id="E3D87CFA-4B8D-937C-40CD-37B5FFC4CEDB">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>C3F834A1-DBA9-7674-7BEE-CF2905F7280F</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ds_categoria" id="E2623847-8527-8090-EAC5-0D1C79DB5B26">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>19C33809-76D3-DB41-3DFB-195841EAADF6</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="vl_inicial" id="0CDFC652-D8AA-685D-1440-92245B491996">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>9429CCFB-5481-8FA2-6618-A90A04972816</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="vl_final" id="3855510D-E893-6BF3-E3B7-7812DF1C032E">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>FA3D0124-9EFE-F518-A8BE-D33B06FFFE96</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="589059FE-8161-C2C3-8432-A9F15E27E18F" name="PK_AULA27_CATEGORIA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>4054E8AC-3BCD-81F6-DBB2-7A7019194541</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E3D87CFA-4B8D-937C-40CD-37B5FFC4CEDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

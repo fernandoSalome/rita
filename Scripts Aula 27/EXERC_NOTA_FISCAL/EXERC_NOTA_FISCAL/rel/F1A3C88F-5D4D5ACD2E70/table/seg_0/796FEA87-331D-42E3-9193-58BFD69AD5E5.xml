@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="796FEA87-331D-42E3-9193-58BFD69AD5E5" directorySegmentName="seg_0" name="T_SPV_PRODUTO">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>EF430F6E-EE27-6B18-5B4C-3EA0E2E66FDE</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<pkName>PK_SPV_PRODUTO</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_produto" id="207849CC-7568-17E1-0655-AF5CD9337CF0">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>2D37198D-9FA4-BAE7-4837-EC3CD83317B1</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_unidade_medida" id="FF71637D-C563-92AC-FD28-90797C160213">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>02AAB2BD-556F-FF84-8669-7266E61FF2EA</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>053C3725-A65A-F3E7-AF6A-F46E2CD992C4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A7776B8-0972-82F8-591F-8A4E9B59F845" referredColumn="053C3725-A65A-F3E7-AF6A-F46E2CD992C4"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ds_produto" id="F8C94661-8AB1-0D91-6AD3-F39BB6F088F7">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>FE4EAD97-4AD3-9619-CB63-BA30763AF47E</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ds_completa_produto" id="D5532ADF-CA51-9A19-7B06-B60BD0C7895E">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>FA7306D8-3E89-BEA6-27C9-F3ECF2F82CF5</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="qt_estoque" id="2B0EB1E5-6B90-355E-2FD4-B6DC8CBD84A3">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>D254972B-F599-E9BB-37B0-DBD0AF39C7E4</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="vl_preco_unitario" id="F3F7A044-9C84-0FB0-736C-B5198891B5B5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>8A1A643F-7FF4-7504-98EC-E86625EF82E6</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="29257177-59EA-C76E-5F77-2734984CD608" name="PK_SPV_PRODUTO">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>56FB5BE4-BCA9-8A47-05CE-7EAC231C7E19</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="207849CC-7568-17E1-0655-AF5CD9337CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FCBFDD39-8036-9B53-023D-5FEC8A3706C2" name="UN_SPV_PROD_DESCRICAO">
+<createdBy>pf0102</createdBy>
+<createdTime>2013-08-08 23:36:36 UTC</createdTime>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F8C94661-8AB1-0D91-6AD3-F39BB6F088F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="AEF69E2E-AA2E-05BE-7450-43DFCF1DAC72" name="FK_SPV_PRODUTO_UNID">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>F3877700-42D8-32EC-E479-1FAB20AEEC24</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="FF71637D-C563-92AC-FD28-90797C160213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="CK_SPV_PROD_QTD" id="5F9073E1-53FA-10CC-E24A-3138D1F82CD7" directorySegmentName="seg_0">
+<createdBy>pf0102</createdBy>
+<createdTime>2013-08-08 23:38:13 UTC</createdTime>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<rule>qt_estoque &gt; 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="CK_SPV_PROD_PRECO" id="232FD8E9-3421-1FD3-80D5-AE47A4071F0E" directorySegmentName="seg_0">
+<createdBy>pf0102</createdBy>
+<createdTime>2013-08-08 23:39:01 UTC</createdTime>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<rule>vl_preco_unitario &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

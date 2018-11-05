@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="6A7776B8-0972-82F8-591F-8A4E9B59F845" directorySegmentName="seg_0" name="FK_SPV_PRODUTO_UNID">
+<createdBy>Rita</createdBy>
+<createdTime>2013-05-17 23:35:28 UTC</createdTime>
+<generatorID>F3877700-42D8-32EC-E479-1FAB20AEEC24</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<containerWithKeyObject>796FEA87-331D-42E3-9193-58BFD69AD5E5</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>AEF69E2E-AA2E-05BE-7450-43DFCF1DAC72</localFKIndex>
+<keyObject>844040FA-4B83-6D24-758E-CF083CEB28D8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

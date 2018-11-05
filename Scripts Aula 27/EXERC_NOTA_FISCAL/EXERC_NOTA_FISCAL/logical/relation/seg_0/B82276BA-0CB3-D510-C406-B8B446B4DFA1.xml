@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prod_podeser_Vendido" directorySegmentName="seg_0" id="B82276BA-0CB3-D510-C406-B8B446B4DFA1">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:15:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<sourcePk>56FB5BE4-BCA9-8A47-05CE-7EAC231C7E19</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF430F6E-EE27-6B18-5B4C-3EA0E2E66FDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5744FD26-E670-AF3C-4478-181981BA847D</targetEntity>
+<transferable>true</transferable>
+</Relation>

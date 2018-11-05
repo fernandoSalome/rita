@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="02EEF6D8-D15E-5F4D-0DCE-FEAE7AFE48D6" directorySegmentName="seg_0" name="T_AULA27_FAIXA_CD">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>8EDC482C-4AEE-2618-F651-21044BC3C786</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pkName>PK_AULA27_FAIXA_CD</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_codigo_cd" id="CC2BC4BF-93D2-5B37-740E-53C5D2D7BBCA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>AA5EE8C4-FDFE-75CA-1110-0FAB299CB5BC</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>07952096-ADDC-0EE0-6542-985D005319EF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44C09633-C61C-CB22-297F-71FAC7480C30" referredColumn="07952096-ADDC-0EE0-6542-985D005319EF"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="nr_faixa" id="7F1AAA47-C5DF-9682-583C-5BDFFB702528">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>360C324B-43BA-18DB-C907-022B0785C60D</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cd_musica" id="676D7FDC-2CA6-8811-E15F-8F6B252401DE">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>37699E60-79B1-388E-E52A-6A8E2FF56CED</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>4E0CB4DD-20B4-A022-1B7D-AB6D905260B5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="871972FB-0CD2-D082-747F-51CB561EDA30" referredColumn="4E0CB4DD-20B4-A022-1B7D-AB6D905260B5"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="vl_duracao" id="65B256FF-952C-3508-2B3F-9FB16718BC79">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>88D5E4F2-4F7C-74CA-D006-F900955396DA</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E46AFD00-C933-9248-2F39-A4D670FB3B0F" name="PK_AULA27_FAIXA_CD">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>2B951EA7-797E-1D79-F7C9-2CAFC9CDFA2F</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CC2BC4BF-93D2-5B37-740E-53C5D2D7BBCA"/>
+<colUsage columnID="7F1AAA47-C5DF-9682-583C-5BDFFB702528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3EC7CC3A-F76C-7F8E-E01E-4C5DCCA4F349" name="FK_AULA27_CD_FAIXA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>FDC99914-25A6-67F9-3432-613834D01512</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="CC2BC4BF-93D2-5B37-740E-53C5D2D7BBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7DFC3E55-0E61-F310-DD22-C7ABD058DEE3" name="FK_AULA27_MUSICA_FAIXA">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:23:04 UTC</createdTime>
+<generatorID>C0914EF5-42ED-AE84-A0FD-1719BAF3995F</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="676D7FDC-2CA6-8811-E15F-8F6B252401DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

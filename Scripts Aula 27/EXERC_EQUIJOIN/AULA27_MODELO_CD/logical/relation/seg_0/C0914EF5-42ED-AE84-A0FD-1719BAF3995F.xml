@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AULA27_MUSICA_FAIXA" id="C0914EF5-42ED-AE84-A0FD-1719BAF3995F" directorySegmentName="seg_0">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:20:40 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA27_MODELO_CD</ownerDesignName>
+<engineerTo>
+<item key="DAB28F1E-127A-7A3D-1102-A6C3A731353E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>538651C7-91D0-353F-BD1E-E275DDE298A8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8EDC482C-4AEE-2618-F651-21044BC3C786</targetEntity>
+<transferable>true</transferable>
+</Relation>

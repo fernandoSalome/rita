@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F1A3A1E2-FD56-72F3-CC99-BB9566388BF4" mainViewID="32B1C823-050F-5085-A334-274DD5D3BE26">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 17:51:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA05_EXERC04_NOTAFISCAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

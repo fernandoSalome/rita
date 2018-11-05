@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="60186D1F-B764-22B9-53CC-F875655D6F61">
+<createdBy>Rita</createdBy>
+<createdTime>2013-09-09 00:14:01 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="538651C7-91D0-353F-BD1E-E275DDE298A8" otype="Entity" vid="BCA5FC57-B5EB-BE92-8DF9-7187BA469A46">
+<bounds x="24" y="338" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8EDC482C-4AEE-2618-F651-21044BC3C786" otype="Entity" vid="E2ED7A78-F636-68E3-8B92-B22B24A04695">
+<bounds x="261" y="185" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9AA54B25-6176-91E1-D33F-086A681F638C" otype="Entity" vid="5776A61B-D42E-A765-DB0D-E3C06D6B176C">
+<bounds x="446" y="18" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B89DD838-209A-F0E1-F7FB-882D8AAEF22E" otype="Entity" vid="A3150D5D-31B0-A2AB-AB66-5AEDE80A5B72">
+<bounds x="19" y="18" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C0914EF5-42ED-AE84-A0FD-1719BAF3995F" otype="Relation" vid_source="BCA5FC57-B5EB-BE92-8DF9-7187BA469A46" vid_target="E2ED7A78-F636-68E3-8B92-B22B24A04695">
+<lineWidth>1</lineWidth>
+<points>
+<point x="194" y="393"/>
+<point x="348" y="393"/>
+<point x="348" y="295"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FDC99914-25A6-67F9-3432-613834D01512" otype="Relation" vid_source="A3150D5D-31B0-A2AB-AB66-5AEDE80A5B72" vid_target="E2ED7A78-F636-68E3-8B92-B22B24A04695">
+<lineWidth>1</lineWidth>
+<points>
+<point x="189" y="95"/>
+<point x="345" y="95"/>
+<point x="345" y="185"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

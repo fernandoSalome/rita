@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cli_podeter_nf" directorySegmentName="seg_0" id="0FD683A7-7ED8-59BA-ADF3-E4BBC19237F7">
+<createdBy>Rita</createdBy>
+<createdTime>2013-03-17 18:13:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>EXERC_NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="F1A3C88F-F911-EA9B-DEA8-5D4D5ACD2E70" value="true"/>
+</engineerTo>
+<sourcePk>E7FB23E0-38EC-EBE2-6365-9E639B8833A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>692F186D-2A23-21E3-FA1C-8455A1004542</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>058EE57A-CC60-EC21-A4E4-A159B09916B8</targetEntity>
+<transferable>true</transferable>
+</Relation>
